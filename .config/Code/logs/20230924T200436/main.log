@@ -1,0 +1,15 @@
+2023-09-24 20:04:36.193 [info] update#setState idle
+2023-09-24 20:05:06.202 [info] update#setState checking for updates
+2023-09-24 20:05:06.252 [info] update#setState idle
+2023-09-24 20:18:37.896 [info] Extension host with pid 1924 exited with code: 15, signal: unknown.
+2023-09-24 20:18:37.898 [error] [UtilityProcess id: 1, type: extensionHost, pid: 1924]: crashed with code 15 and reason 'killed'
+2023-09-24 20:18:37.900 [error] ptyHost terminated unexpectedly with code 15
+2023-09-24 20:18:37.901 [warning] [UtilityProcess type: ptyHost, pid: 2944]: unable to kill the process
+2023-09-24 20:18:37.913 [info] Extension host with pid 2232 exited with code: 0, signal: unknown.
+2023-09-24 20:18:37.914 [error] [UtilityProcess id: 2, type: extensionHost, pid: 2232]: crashed with code 15 and reason 'killed'
+2023-09-24 20:18:37.916 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-24 20:18:37.917 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 2222]: crashed with code 15 and reason 'killed'
+2023-09-24 20:18:37.925 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-24 20:18:37.925 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1935]: crashed with code 15 and reason 'killed'
+2023-09-24 20:18:37.926 [error] [UtilityProcess type: shared-process, pid: 1934]: crashed with code 15 and reason 'killed'
+2023-09-24 20:18:37.927 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

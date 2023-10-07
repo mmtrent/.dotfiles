@@ -1,0 +1,24 @@
+2023/10/06-17:27:11.875 3 Reusing MANIFEST /home/mmtrent/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/10/06-17:27:11.878 3 Recovering log #630
+2023/10/06-17:27:11.882 3 Reusing old log /home/mmtrent/.config/google-chrome/Default/Local Storage/leveldb/000630.log 
+2023/10/06-17:27:23.375 3 Level-0 table #634: started
+2023/10/06-17:27:23.383 3 Level-0 table #634: 48542 bytes OK
+2023/10/06-17:27:23.389 3 Delete type=0 #630
+2023/10/06-17:27:23.390 3 Compacting 4@0 + 1@1 files
+2023/10/06-17:27:23.451 3 Generated table #635@0: 4203 keys, 1676703 bytes
+2023/10/06-17:27:23.451 3 Compacted 4@0 + 1@1 files => 1676703 bytes
+2023/10/06-17:27:23.454 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/06-17:27:23.455 3 Delete type=2 #627
+2023/10/06-17:27:23.455 3 Delete type=2 #631
+2023/10/06-17:27:23.455 3 Delete type=2 #625
+2023/10/06-17:27:23.455 3 Delete type=2 #629
+2023/10/06-17:27:23.455 3 Delete type=2 #634
+2023/10/06-17:27:32.222 3 Level-0 table #637: started
+2023/10/06-17:27:32.226 3 Level-0 table #637: 43481 bytes OK
+2023/10/06-17:27:32.232 3 Delete type=0 #633
+2023/10/06-17:33:38.082 4 Level-0 table #639: started
+2023/10/06-17:33:38.088 4 Level-0 table #639: 49600 bytes OK
+2023/10/06-17:33:38.092 4 Delete type=0 #636
+2023/10/06-17:43:33.926 4 Level-0 table #641: started
+2023/10/06-17:43:33.933 4 Level-0 table #641: 64204 bytes OK
+2023/10/06-17:43:33.938 4 Delete type=0 #638

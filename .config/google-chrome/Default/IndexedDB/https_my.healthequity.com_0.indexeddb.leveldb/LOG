@@ -1,0 +1,7 @@
+2023/09/11-10:28:13.622 395 Reusing MANIFEST /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_my.healthequity.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/11-10:28:13.623 395 Recovering log #3
+2023/09/11-10:28:13.623 395 Reusing old log /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_my.healthequity.com_0.indexeddb.leveldb/000003.log 
+2023/09/11-10:41:48.926 396 Level-0 table #5: started
+2023/09/11-10:41:48.927 396 Level-0 table #5: 5436 bytes OK
+2023/09/11-10:41:48.930 396 Delete type=0 #3
+2023/09/11-10:41:48.930 396 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

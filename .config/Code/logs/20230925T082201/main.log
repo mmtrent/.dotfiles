@@ -1,0 +1,37 @@
+2023-09-25 08:22:01.254 [info] update#setState idle
+2023-09-25 08:22:09.938 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-25 08:22:09.938 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 1287]: crashed with code 15 and reason 'killed'
+2023-09-25 08:22:14.922 [info] Extension host with pid 1297 exited with code: 0, signal: unknown.
+2023-09-25 08:22:31.255 [info] update#setState checking for updates
+2023-09-25 08:22:31.344 [info] update#setState idle
+2023-09-25 08:22:52.105 [info] Extension host with pid 1298 exited with code: 0, signal: unknown.
+2023-09-25 09:22:31.257 [info] update#setState checking for updates
+2023-09-25 09:22:31.651 [info] update#setState idle
+2023-09-25 10:22:31.260 [info] update#setState checking for updates
+2023-09-25 10:22:31.574 [info] update#setState idle
+2023-09-25 11:22:31.263 [info] update#setState checking for updates
+2023-09-25 11:22:31.566 [info] update#setState idle
+2023-09-25 12:22:31.265 [info] update#setState checking for updates
+2023-09-25 12:22:31.595 [info] update#setState idle
+2023-09-25 12:49:48.525 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-25 12:49:48.525 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1450]: crashed with code 15 and reason 'killed'
+2023-09-25 12:49:53.526 [info] Extension host with pid 1459 exited with code: 0, signal: unknown.
+2023-09-25 12:49:59.045 [error] update#isLatestVersion(): failed to check for updates
+2023-09-25 12:49:59.046 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49830)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+2023-09-25 13:17:18.462 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-25 13:17:18.463 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 5761]: crashed with code 15 and reason 'killed'
+2023-09-25 13:17:23.458 [info] Extension host with pid 5770 exited with code: 0, signal: unknown.
+2023-09-25 13:22:31.267 [info] update#setState checking for updates
+2023-09-25 13:22:31.582 [info] update#setState idle
+2023-09-25 14:07:01.295 [info] Extension host with pid 7183 exited with code: 0, signal: unknown.
+2023-09-25 14:09:45.468 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-09-25 14:09:45.468 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8305]: crashed with code 15 and reason 'killed'
+2023-09-25 14:09:50.434 [info] Extension host with pid 8296 exited with code: 0, signal: unknown.
+2023-09-25 14:22:31.273 [info] update#setState checking for updates
+2023-09-25 14:22:31.596 [info] update#setState idle
+2023-09-25 15:22:31.279 [info] update#setState checking for updates
+2023-09-25 15:22:31.608 [info] update#setState idle
+2023-09-25 16:02:12.996 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 8943]: crashed with code 15 and reason 'killed'
+2023-09-25 16:02:17.971 [info] Extension host with pid 8944 exited with code: 0, signal: unknown.

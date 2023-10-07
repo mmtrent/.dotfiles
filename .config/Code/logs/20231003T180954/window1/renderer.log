@@ -1,0 +1,9 @@
+2023-10-03 18:10:01.515 [info] [perf] Render performance baseline is 24ms
+2023-10-03 18:16:05.393 [error] Unable to read file '/home/mmtrent/repos/library/script.js' (Error: File not modified since): Error: Unable to read file '/home/mmtrent/repos/library/script.js' (Error: File not modified since)
+    at r.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:630:16316)
+    at r.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:630:16204)
+    at async b.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:37067)
+    at async b.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:36824)
+    at async L.zb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2329:29196)
+    at async L.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2329:27643)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2340:32937

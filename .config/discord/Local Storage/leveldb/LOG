@@ -1,0 +1,8 @@
+2023/09/16-15:35:05.547 a47 Creating DB /home/mmtrent/.config/discord/Local Storage/leveldb since it was missing.
+2023/09/16-15:35:05.558 a47 Reusing MANIFEST /home/mmtrent/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/09/16-15:37:09.612 a5e Level-0 table #5: started
+2023/09/16-15:37:09.628 a5e Level-0 table #5: 1903915 bytes OK
+2023/09/16-15:37:09.631 a5e Delete type=0 #3
+2023/09/16-21:03:46.311 a5e Level-0 table #7: started
+2023/09/16-21:03:46.329 a5e Level-0 table #7: 1899128 bytes OK
+2023/09/16-21:03:46.331 a5e Delete type=0 #4

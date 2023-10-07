@@ -1,0 +1,56 @@
+file:///home/mmtrent/repos/calculator/index.html {"mtime":1694823689096,"ctime":1694823689096,"size":1783,"etag":"3b78b78sl1qg","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div class="rows" id="display">0</div>
+        <div class="rows" id="row1">
+            <button id="clear">C</button>
+            <button class="operators" id="neg"><!--+/---></button>
+            <button class="operators" id="sqrt"><!--&#8730;--></button>
+            <button class="operators" id="divide">/</button>
+        </div>
+        <div class="rows" id="row2">
+            <button class="numbers" id="num7">7</button>
+            <button class="numbers" id="num8">8</button>
+            <button class="numbers" id="num9">9</button>
+            <button class="operators" id="multiply">X</button>
+        </div>
+        <div class="rows" id="row3">
+            <button class="numbers" id="num4">4</button>
+            <button class="numbers" id="num5">5</button>
+            <button class="numbers" id="num6">6</button>
+            <button class="operators" id="subtract">-</button>
+        </div>
+        <div class="rows" id="row4">
+            <button class="numbers" id="num1">1</button>
+            <button class="numbers" id="num2">2</button>
+            <button class="numbers" id="num3">3</button>
+            <button class="operators" id="add">+</button>
+        </div>
+        <div class="rows" id="row5">
+            <button class="numbers" id="num0">0</button>
+            <button id="dot"><!--.--></button>
+            <button id="equals">=</button>
+
+        </div>
+    </div>
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+</body>
+</html>

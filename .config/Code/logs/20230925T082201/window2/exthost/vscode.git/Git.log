@@ -1,0 +1,14 @@
+2023-09-25 08:22:05.766 [info] Log level: Info
+2023-09-25 08:22:05.766 [info] Validating found git in: "git"
+2023-09-25 08:22:05.766 [info] Using git "2.42.0" from "git"
+2023-09-25 08:22:05.766 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-25 08:22:05.766 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-09-25 08:22:05.766 [info] Open repository: /home/mmtrent/repos/library
+2023-09-25 08:22:05.779 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-25 08:22:05.780 [info] > git config --get commit.template [9ms]
+2023-09-25 08:22:05.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-09-25 08:22:05.828 [info] > git status -z -uall [2ms]
+2023-09-25 08:22:05.837 [info] > git config --get commit.template [1ms]
+2023-09-25 08:22:05.843 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-09-25 08:22:05.849 [info] > git status -z -uall [1ms]
+2023-09-25 08:22:06.303 [info] > git check-ignore -v -z --stdin [1ms]

@@ -1,0 +1,375 @@
+[2023-09-16 15:35:11.383] [2750] (engine.cpp:309): Created native Engine, time: Sat Sep 16 15:35:11 2023 PDT, logPath: /home/mmtrent/.config/discord/0.0.29/modules/discord_voice/, logLevel: 2
+[2023-09-16 15:35:11.384] [2750] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-16 15:35:11.384] [2750] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-16 15:35:11.384] [2750] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-16 15:35:11.384] [2750] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-16 15:35:11.384] [2750] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-16 15:35:11.384] [2750] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-16 15:35:11.384] [2750] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-16 15:35:11.384] [2750] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-16 15:35:11.384] [2750] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-09-16 15:35:11.397] [2750] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-16 15:35:11.397] [2750] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-16 15:35:11.397] [2750] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-16 15:35:11.397] [2750] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-16 15:35:11.397] [2750] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-16 15:35:11.397] [2750] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-16 15:35:11.397] [2750] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-16 15:35:11.397] [2750] (audio_engine.cpp:526): Creating audio engine: standard
+[2023-09-16 15:35:11.397] [2750] (audio_device_impl.cc:364): Init
+[2023-09-16 15:35:11.401] [2750] (audio_device_pulse_linux.cc:1605): failed to connect context, error=-1
+[2023-09-16 15:35:11.401] [2750] (audio_device_pulse_linux.cc:145): failed to initialize PulseAudio
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:373): Audio device initialization failed.
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:364): Init
+[2023-09-16 15:35:11.401] [2750] (audio_device_pulse_linux.cc:1605): failed to connect context, error=-1
+[2023-09-16 15:35:11.401] [2750] (audio_device_pulse_linux.cc:145): failed to initialize PulseAudio
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:373): Audio device initialization failed.
+[2023-09-16 15:35:11.401] [2750] (audio_coding.cpp:147): Using software Opus decoder
+[2023-09-16 15:35:11.401] [2750] (audio_coding.cpp:164): Using software Opus encoder
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-16 15:35:11.401] [2750] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-16 15:35:11.401] [2750] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:624): SetStereoPlayout(0)
+[2023-09-16 15:35:11.401] [2750] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-09-16 15:35:11.401] [2750] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-16 15:35:11.401] [2750] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-09-16 15:35:11.401] [2750] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-09-16 15:35:11.401] [2750] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-16 15:35:11.401] [2750] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-09-16 15:35:11.401] [2750] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-09-16 15:35:11.401] [2750] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-09-16 15:35:11.401] [2750] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-09-16 15:35:11.401] [2750] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-09-16 15:35:11.401] [2750] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-16 15:35:11.401] [2750] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-09-16 15:35:11.528] [2720] (discord.cpp:690): JS console: ["%c[DatabaseManager]","active user changed (now: undefined, was: null, was: undefined)"]
+[2023-09-16 15:35:11.531] [2750] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-16 15:35:11.531] [2750] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:624): SetStereoPlayout(0)
+[2023-09-16 15:35:11.531] [2750] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-16 15:35:11.533] [2720] (discord.cpp:690): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 228672, Version Hash: e9ebae8bba279cd2bfc6393030c7967617a12ab4"]
+[2023-09-16 15:35:11.647] [2720] (discord.cpp:690): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-09-16 15:35:11.692] [2720] (discord.cpp:690): JS console: ["%c[default]","[NATIVE INFO] host 0.0.29, modules: discord_desktop_core: 2, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 2, discord_voice: 2, build: null"]
+[2023-09-16 15:35:11.711] [2720] (discord.cpp:690): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-09-16 15:35:11.806] [2720] (discord.cpp:690): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-09-16 15:35:12.001] [2720] (discord.cpp:690): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/dde48701fa08789fbe33.js:1469:330)\n    at Bn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1495:696)\n    at Wn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:356)\n    at Zn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:199)\n    at Yn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1497:886)\n    at Kn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:697)\n    at zn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:731)\n    at i (https://discordapp.com/assets/dde48701fa08789fbe33.js:1465:961)\n    at 408481 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:21:346)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 558820 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:14:338)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 308739 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:2:331)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 173242 (https://discordapp.com/assets/d68962f34a4f3cfddb71.js:364:101)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 121638 (https://discordapp.com/assets/729d207481831a94e488.js:35:278)\n    at Function.l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)"]
+[2023-09-16 15:35:12.043] [2720] (discord.cpp:690): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-16 15:35:12.747] [2720] (discord.cpp:690): JS console: ["Initializing krisp module"]
+[2023-09-16 15:35:13.127] [2720] (discord.cpp:690): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-09-16 15:35:13.129] [2720] (discord.cpp:690): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-09-16 15:35:14.586] [2720] (discord.cpp:690): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2023-09-16 15:35:14.589] [2720] (discord.cpp:690): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2023-09-16 15:35:14.628] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2023-09-16 15:35:14.832] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[205ms] got hello, auth timeout=137484ms"]
+[2023-09-16 15:35:14.888] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[260ms] connected, handshaking with fingerprint: 9LjD1uON7TYjxV4bpLuunII9rP9kCmFTgDlAT5qKyiU"]
+[2023-09-16 15:35:14.977] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[350ms] computed nonce proof"]
+[2023-09-16 15:35:15.068] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[441ms] handshake complete awaiting remote auth."]
+[2023-09-16 15:35:41.755] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[27126ms] remote auth handshake started, awaiting ticket/cancel."]
+[2023-09-16 15:35:45.419] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching LOGIN"]
+[2023-09-16 15:35:45.423] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching LOGIN_SUCCESS"]
+[2023-09-16 15:35:45.423] [2720] (discord.cpp:690): JS console: ["%c[AuthenticationStore]","setAuthToken called.","[object Object]"]
+[2023-09-16 15:35:45.424] [2720] (discord.cpp:690): JS console: ["%c[ConnectionStore]","session refresh dispatched","[object Object]"]
+[2023-09-16 15:35:45.437] [2720] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2023-09-16 15:35:45.442] [2720] (discord.cpp:690): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-09-16 15:35:45.442] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-09-16 15:35:45.442] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-16 15:35:45.443] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-16 15:35:45.443] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-16 15:35:45.443] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-16 15:35:45.444] [2720] (discord.cpp:690): JS console: ["%c[LoginQRSocket]","[30817ms] cleaning up"]
+[2023-09-16 15:35:45.626] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 183 ms"]
+[2023-09-16 15:35:45.626] [2720] (discord.cpp:690): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-09-16 15:35:45.627] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-09-16 15:35:45.627] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-09-16 15:35:45.632] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-t63t: 0, heartbeat interval: 41250, took 189 ms"]
+[2023-09-16 15:35:45.994] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY] took 551ms, as 0be2f6c7b67a638db3096bcd688daffe via \ngateway-prd-us-east1-d-t63t: 205.874\n|  id_created: 1.256\n|  session_lookup_time: 1.356\n|  session_lookup_finished: 0.019\n|  discord-sessions-prd-2-186: 200.272\n|  |  start_session: 158.644\n|  |  |  discord-api-7cd4b6fc99-xrkmc: 148.456\n|  |  |  |  get_user: 18.465\n|  |  |  |  get_guilds: 22.719\n|  |  |  |  user_settings_proto: 0.095\n|  |  |  |  relationships: 27.864\n|  |  |  |  friend_suggestion: 0.064\n|  |  |  |  connections: 0.21\n|  |  |  |  serialized_read_states: 0.008\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.002\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 13.37\n|  |  |  |  game_invites: 0.004\n|  |  |  |  experiments: 14.838\n|  |  |  |  affine_user_ids: 25.47\n|  |  |  |  required_action: 0.003\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.044\n|  |  presence_started: 0.291\n|  |  guilds_started: 0.442\n|  |  guilds_connect: 30.089\n|  |  presence_connect: 9.435\n|  |  connect_finished: 39.54\n|  |  build_ready: 0.643\n|  |  clean_ready: 0.002\n|  |  optimize_ready: 0.644\n|  |  split_ready: 0.014"]
+[2023-09-16 15:35:45.995] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 15:35:46.005] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-09-16 15:35:46.006] [2720] (discord.cpp:690): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-09-16 15:35:46.007] [2720] (discord.cpp:690): JS console: ["%c[DatabaseManager]","removing database (user: 455150758292226058, database: undefined)"]
+[2023-09-16 15:35:46.007] [2720] (discord.cpp:690): JS console: ["%c[DatabaseManager]","added database (455150758292226058 → null)"]
+[2023-09-16 15:35:46.014] [2720] (discord.cpp:690): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-09-16 15:35:46.019] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-16 15:35:46.020] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Added account: mmtrent86"]
+[2023-09-16 15:35:46.041] [2720] (discord.cpp:690): JS console: ["%c[DatabaseManager]","active user changed (now: 455150758292226058, was: undefined, was: undefined)"]
+[2023-09-16 15:35:46.043] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-d.discord.gg"]
+[2023-09-16 15:35:46.045] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 602ms"]
+[2023-09-16 15:35:46.046] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 15:35:46.757] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 341.70000000018626ms"]
+[2023-09-16 15:35:46.762] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connected"]
+[2023-09-16 15:35:46.907] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Profile updated for mmtrent86: isPremium = true"]
+[2023-09-16 15:35:46.912] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:",""]
+[2023-09-16 15:35:48.225] [2750] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-09-16 15:35:51.626] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 1145521052529725502 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:35:51.853] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 40 messages for 1145521052529725502 isBefore:false isAfter:false"]
+[2023-09-16 15:35:56.022] [2720] (discord.cpp:690): JS console: ["%c[ReadStateStore]","Deleting ReadState","1125433615619199148","0","[object Object]"]
+[2023-09-16 15:35:58.217] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-16 15:35:58.249] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 158, Client revision: null"]
+[2023-09-16 15:35:58.250] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Unable to process domain list delta: Client revision number is null"]
+[2023-09-16 15:35:58.250] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Downloading the full bad domains file"]
+[2023-09-16 15:35:58.422] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28272 after update"]
+[2023-09-16 15:36:04.323] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 959132872961318952 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:36:04.581] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 959132872961318952 isBefore:false isAfter:false"]
+[2023-09-16 15:36:05.121] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 615722685690806278 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:36:05.882] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 615722685690806278 isBefore:false isAfter:false"]
+[2023-09-16 15:36:16.276] [3027] (region_latency_tester.cpp:72): Sending 5 latency test pings to region santa-clara
+[2023-09-16 15:36:16.276] [3027] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-west
+[2023-09-16 15:36:16.276] [3027] (region_latency_tester.cpp:72): Sending 5 latency test pings to region seattle
+[2023-09-16 15:36:16.276] [3027] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-south
+[2023-09-16 15:36:16.276] [3027] (region_latency_tester.cpp:72): Sending 5 latency test pings to region us-central
+[2023-09-16 15:36:16.352] [3027] (region_latency_tester.cpp:271): Average RTT for region santa-clara is 22
+[2023-09-16 15:36:16.352] [3027] (region_latency_tester.cpp:271): Average RTT for region us-west is 37.5
+[2023-09-16 15:36:16.352] [3027] (region_latency_tester.cpp:271): Average RTT for region seattle is 38
+[2023-09-16 15:36:16.352] [3027] (region_latency_tester.cpp:271): Average RTT for region us-south is 69
+[2023-09-16 15:36:16.352] [3027] (region_latency_tester.cpp:271): Average RTT for region us-central is 69
+[2023-09-16 15:36:16.354] [2720] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","santa-clara,us-west,seattle,us-south,us-central"]
+[2023-09-16 15:54:29.222] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 615716250214989834 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:54:29.733] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 1 messages for 615716250214989834 isBefore:false isAfter:false"]
+[2023-09-16 15:54:40.121] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 702302895353233439 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:54:40.229] [2720] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/393846237255696385/702302895353233439"]
+[2023-09-16 15:54:40.481] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 5 messages for 702302895353233439 isBefore:false isAfter:false"]
+[2023-09-16 15:54:47.595] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 609881509003788289 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:54:47.695] [2720] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/505093832157691914/609881509003788289"]
+[2023-09-16 15:54:47.882] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 609881509003788289 isBefore:false isAfter:false"]
+[2023-09-16 15:54:47.981] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 609881509003788289 between 1152652404257460295 and undefined. jump=undefined"]
+[2023-09-16 15:54:48.004] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 609881509003788289 between 1152652404257460295 and undefined. jump=undefined"]
+[2023-09-16 15:54:48.234] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 609881509003788289 isBefore:true isAfter:false"]
+[2023-09-16 15:54:48.742] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 609881509003788289 isBefore:true isAfter:false"]
+[2023-09-16 15:54:57.165] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 669547324707569665 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-09-16 15:54:57.264] [2720] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/505093832157691914/669547324707569665"]
+[2023-09-16 15:54:57.477] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 669547324707569665 isBefore:false isAfter:false"]
+[2023-09-16 15:55:50.969] [2720] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 669547324707569665 between undefined and undefined. jump={\"messageId\":\"1151633955452375191\",\"flash\":true,\"returnMessageId\":\"1151670630635278376\"}"]
+[2023-09-16 19:29:42.634] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-16 19:29:42.634] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-16 19:29:42.635] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-16 19:29:42.635] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-16 19:29:42.635] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-16 19:29:42.838] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 203 ms"]
+[2023-09-16 19:29:42.839] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-16 19:29:42.840] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 2647"]
+[2023-09-16 19:29:42.842] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-frwm: 0, heartbeat interval: 41250, took 207 ms"]
+[2023-09-16 19:29:42.932] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 297ms, via \ngateway-prd-us-east1-d-frwm: 0.953\n|  id_created: 0\n|  session_lookup_time: 0.715\n|  session_lookup_finished: 0.034\n|  discord-sessions-prd-2-186: 0.021, replayed 1 events, new seq: 2648"]
+[2023-09-16 19:29:42.934] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 19:29:42.969] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-16 19:35:48.223] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-16 19:35:48.308] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 158"]
+[2023-09-16 19:35:48.365] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Retrieved delta, domains added: 16, domains removed: 0"]
+[2023-09-16 19:35:48.414] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28272 before update"]
+[2023-09-16 19:35:48.416] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Delta applied successfully"]
+[2023-09-16 19:35:48.416] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28288 after update"]
+[2023-09-16 20:09:20.732] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-16 20:09:20.732] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-16 20:09:20.733] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-16 20:09:20.733] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-16 20:09:20.733] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-16 20:09:20.930] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 197 ms"]
+[2023-09-16 20:09:20.931] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-16 20:09:20.931] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 2775"]
+[2023-09-16 20:09:20.933] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-fv5f: 0, heartbeat interval: 41250, took 200 ms"]
+[2023-09-16 20:09:21.025] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 292ms, via \ngateway-prd-us-east1-d-fv5f: 0.5\n|  id_created: 0\n|  session_lookup_time: 0.256\n|  session_lookup_finished: 0.014\n|  discord-sessions-prd-2-186: 0.029, replayed 1 events, new seq: 2776"]
+[2023-09-16 20:09:21.026] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 20:09:21.060] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-16 21:03:41.009] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-16 21:03:41.009] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-16 21:03:41.009] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-16 21:03:41.009] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-16 21:03:41.009] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-16 21:03:41.214] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 205 ms"]
+[2023-09-16 21:03:41.214] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-16 21:03:41.215] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 3743"]
+[2023-09-16 21:03:41.216] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-9z52: 0, heartbeat interval: 41250, took 207 ms"]
+[2023-09-16 21:03:41.308] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 298ms, via \ngateway-prd-us-east1-d-9z52: 0.527\n|  id_created: 0\n|  session_lookup_time: 0.257\n|  session_lookup_finished: 0.019\n|  discord-sessions-prd-2-186: 0.031, replayed 1 events, new seq: 3744"]
+[2023-09-16 21:03:41.309] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 21:03:41.344] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-16 21:36:16.313] [2720] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is santa-clara"]
+[2023-09-16 22:51:50.795] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-16 22:51:50.796] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-16 22:51:50.796] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-16 22:51:50.796] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-16 22:51:50.796] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-16 22:51:50.997] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 200 ms"]
+[2023-09-16 22:51:50.997] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-16 22:51:50.998] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 4912"]
+[2023-09-16 22:51:51.000] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-wm0d: 0, heartbeat interval: 41250, took 203 ms"]
+[2023-09-16 22:51:51.107] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 311ms, via \ngateway-prd-us-east1-d-wm0d: 14.631\n|  id_created: 0\n|  session_lookup_time: 8.737\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.033, replayed 1 events, new seq: 4913"]
+[2023-09-16 22:51:51.107] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-16 22:51:51.143] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-16 23:35:48.223] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-16 23:35:48.307] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 159"]
+[2023-09-17 00:49:59.418] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 00:49:59.418] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 00:49:59.418] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 00:49:59.418] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 00:49:59.418] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 00:49:59.619] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 200 ms"]
+[2023-09-17 00:49:59.619] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 00:49:59.619] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 5423"]
+[2023-09-17 00:49:59.621] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-qsgh: 0, heartbeat interval: 41250, took 203 ms"]
+[2023-09-17 00:49:59.712] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 293ms, via \ngateway-prd-us-east1-d-qsgh: 0.608\n|  id_created: 0\n|  session_lookup_time: 0.279\n|  session_lookup_finished: 0.019\n|  discord-sessions-prd-2-186: 0.028, replayed 1 events, new seq: 5424"]
+[2023-09-17 00:49:59.713] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 00:49:59.748] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 01:32:46.304] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 01:32:46.305] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 01:32:46.305] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 01:32:46.305] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 01:32:46.305] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 01:32:46.507] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 202 ms"]
+[2023-09-17 01:32:46.507] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 01:32:46.508] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 5736"]
+[2023-09-17 01:32:46.509] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-wm0d: 0, heartbeat interval: 41250, took 204 ms"]
+[2023-09-17 01:32:46.600] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 295ms, via \ngateway-prd-us-east1-d-wm0d: 0.7\n|  id_created: 0\n|  session_lookup_time: 0.367\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.061, replayed 1 events, new seq: 5737"]
+[2023-09-17 01:32:46.602] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 01:32:46.635] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 03:35:48.218] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-17 03:35:48.351] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 159"]
+[2023-09-17 03:36:16.283] [2720] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is santa-clara"]
+[2023-09-17 04:38:56.844] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 04:38:56.845] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 04:38:56.845] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 04:38:56.845] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 04:38:56.846] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 04:38:57.048] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 202 ms"]
+[2023-09-17 04:38:57.049] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 04:38:57.049] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 8467"]
+[2023-09-17 04:38:57.051] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-pd13: 0, heartbeat interval: 41250, took 205 ms"]
+[2023-09-17 04:38:57.144] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 299ms, via \ngateway-prd-us-east1-d-pd13: 4.773\n|  id_created: 0\n|  session_lookup_time: 4.463\n|  session_lookup_finished: 0.013\n|  discord-sessions-prd-2-186: 0.03, replayed 1 events, new seq: 8468"]
+[2023-09-17 04:38:57.145] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 04:38:57.181] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 06:50:12.050] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 06:50:12.268] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 06:50:12.355] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object]"]
+[2023-09-17 07:19:47.547] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 07:19:47.547] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 07:19:47.548] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 07:19:47.548] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 07:19:47.548] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 07:19:47.748] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 200 ms"]
+[2023-09-17 07:19:47.749] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 07:19:47.749] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 10592"]
+[2023-09-17 07:19:47.751] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-7r0h: 0, heartbeat interval: 41250, took 203 ms"]
+[2023-09-17 07:19:47.843] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 295ms, via \ngateway-prd-us-east1-d-7r0h: 3.627\n|  id_created: 0\n|  session_lookup_time: 1.525\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.021, replayed 1 events, new seq: 10593"]
+[2023-09-17 07:19:47.844] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 07:19:47.880] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 07:35:48.224] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-17 07:35:48.316] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 159"]
+[2023-09-17 07:36:59.745] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 07:36:59.745] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 07:36:59.745] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 07:36:59.745] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 07:36:59.745] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 07:36:59.937] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 191 ms"]
+[2023-09-17 07:36:59.937] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 07:36:59.939] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 10809"]
+[2023-09-17 07:36:59.940] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-722f: 0, heartbeat interval: 41250, took 195 ms"]
+[2023-09-17 07:37:00.037] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 291ms, via \ngateway-prd-us-east1-d-722f: 2.945\n|  id_created: 0\n|  session_lookup_time: 2.582\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.028, replayed 1 events, new seq: 10810"]
+[2023-09-17 07:37:00.037] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 07:37:00.072] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 08:05:20.921] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 08:05:20.921] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 08:05:20.922] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 08:05:20.922] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 08:05:20.922] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 08:05:21.130] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 208 ms"]
+[2023-09-17 08:05:21.130] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 08:05:21.131] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 11414"]
+[2023-09-17 08:05:21.132] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-hd8l: 0, heartbeat interval: 41250, took 210 ms"]
+[2023-09-17 08:05:21.224] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 301ms, via \ngateway-prd-us-east1-d-hd8l: 2.709\n|  id_created: 0\n|  session_lookup_time: 2.441\n|  session_lookup_finished: 0.022\n|  discord-sessions-prd-2-186: 0.031, replayed 1 events, new seq: 11415"]
+[2023-09-17 08:05:21.224] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 08:05:21.259] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 09:36:16.289] [2720] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is santa-clara"]
+[2023-09-17 09:45:06.438] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 09:45:06.530] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object],[object Object]"]
+[2023-09-17 09:45:06.641] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 09:53:32.415] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object]"]
+[2023-09-17 09:54:04.473] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:",""]
+[2023-09-17 10:21:14.782] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object]"]
+[2023-09-17 10:23:40.872] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:",""]
+[2023-09-17 10:51:23.881] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 10:51:23.883] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 10:51:23.883] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 10:51:23.883] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 10:51:23.884] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 10:51:24.087] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 204 ms"]
+[2023-09-17 10:51:24.088] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 10:51:24.090] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 15494"]
+[2023-09-17 10:51:24.092] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-2n0c: 0, heartbeat interval: 41250, took 208 ms"]
+[2023-09-17 10:51:24.188] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 305ms, via \ngateway-prd-us-east1-d-2n0c: 6.786\n|  id_created: 0\n|  session_lookup_time: 6.147\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.031, replayed 1 events, new seq: 15495"]
+[2023-09-17 10:51:24.189] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 10:51:24.225] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 11:35:48.218] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-17 11:35:48.300] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 159"]
+[2023-09-17 12:51:37.765] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 12:51:37.767] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 12:51:37.768] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 12:51:37.769] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 12:51:37.770] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 12:51:37.980] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 210 ms"]
+[2023-09-17 12:51:37.980] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 12:51:37.981] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 17784"]
+[2023-09-17 12:51:37.983] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-2p07: 0, heartbeat interval: 41250, took 214 ms"]
+[2023-09-17 12:51:38.074] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 304ms, via \ngateway-prd-us-east1-d-2p07: 0.595\n|  id_created: 0\n|  session_lookup_time: 0.315\n|  session_lookup_finished: 0.016\n|  discord-sessions-prd-2-186: 0.037, replayed 1 events, new seq: 17785"]
+[2023-09-17 12:51:38.074] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 12:51:38.110] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 14:13:23.688] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 14:13:23.788] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object]"]
+[2023-09-17 14:13:23.890] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 14:15:59.296] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:",""]
+[2023-09-17 14:26:52.184] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Devices updated for mmtrent86:","[object Object]"]
+[2023-09-17 15:16:12.246] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 15:18:53.620] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-17 15:18:53.621] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-17 15:18:53.621] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-17 15:18:53.621] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-17 15:18:53.621] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-17 15:18:53.822] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 200 ms"]
+[2023-09-17 15:18:53.822] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-17 15:18:53.823] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 0be2f6c7b67a638db3096bcd688daffe, seq: 21392"]
+[2023-09-17 15:18:53.825] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-2n0c: 0, heartbeat interval: 41250, took 203 ms"]
+[2023-09-17 15:18:53.918] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 296ms, via \ngateway-prd-us-east1-d-2n0c: 1.625\n|  id_created: 0\n|  session_lookup_time: 0.329\n|  session_lookup_finished: 0.015\n|  discord-sessions-prd-2-186: 0.037, replayed 2 events, new seq: 21394"]
+[2023-09-17 15:18:53.919] [2720] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-17 15:18:53.952] [2720] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-17 15:35:48.223] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-17 15:35:48.314] [2720] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 159, Client revision: 159"]
+[2023-09-17 15:36:16.296] [2720] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is santa-clara"]
+[2023-09-17 16:17:59.383] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]
+[2023-09-17 17:20:38.467] [2720] (discord.cpp:690): JS console: ["%c[Spotify]","Updated account access token: mmtrent86"]

@@ -1,0 +1,12 @@
+file:///home/mmtrent/Documents/Scratch/script.js {"mtime":1695673873671,"ctime":1695673065471,"size":246,"etag":"3b8ko8j067t","orphaned":false,"typeId":""}
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+ask(
+    "Do you agree?",
+    z
+
+
+)  

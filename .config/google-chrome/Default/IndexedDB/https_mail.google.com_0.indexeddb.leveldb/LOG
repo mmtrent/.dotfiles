@@ -1,0 +1,6 @@
+2023/10/06-15:46:54.167 59e Reusing MANIFEST /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/06-15:46:54.167 59e Recovering log #30
+2023/10/06-15:46:54.174 59e Reusing old log /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000030.log 
+2023/10/06-15:47:07.807 595 Level-0 table #36: started
+2023/10/06-15:47:07.836 595 Level-0 table #36: 2609276 bytes OK
+2023/10/06-15:47:07.839 595 Delete type=0 #30
