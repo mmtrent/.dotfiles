@@ -1,6 +1,0 @@
-2023/09/18-12:00:09.397 a14 Creating DB /home/mmtrent/.config/google-chrome/Default/WebStorage/69/IndexedDB/indexeddb.leveldb since it was missing.
-2023/09/18-12:00:09.402 a14 Reusing MANIFEST /home/mmtrent/.config/google-chrome/Default/WebStorage/69/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2023/09/18-12:00:19.488 a14 Level-0 table #5: started
-2023/09/18-12:00:19.491 a14 Level-0 table #5: 480 bytes OK
-2023/09/18-12:00:19.494 a14 Delete type=0 #3
-2023/09/18-12:00:19.494 a14 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

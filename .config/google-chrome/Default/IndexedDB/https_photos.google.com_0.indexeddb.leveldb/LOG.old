@@ -1,6 +1,0 @@
-2023/09/02-12:50:25.818 432 Creating DB /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb since it was missing.
-2023/09/02-12:50:25.829 432 Reusing MANIFEST /home/mmtrent/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/02-16:47:56.116 433 Level-0 table #5: started
-2023/09/02-16:47:56.118 433 Level-0 table #5: 3552 bytes OK
-2023/09/02-16:47:56.120 433 Delete type=0 #3
-2023/09/02-16:47:56.120 433 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
