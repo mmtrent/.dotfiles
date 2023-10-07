@@ -29,7 +29,7 @@ set $mod Mod4
 # font pango:Arial 8
 font pango:HackNerdFont-Regular.ttf 8
 
-exec --no-startup-id feh --bg-fill /home/mmtrent/Pictures/foggytrees.jpg
+exec --no-startup-id feh --bg-fill /home/mmtrent/.foggytreesbg.jpg
 exec --no-startup-id picom -b
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
